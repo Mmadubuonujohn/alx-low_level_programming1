@@ -7,20 +7,15 @@ int main(void)
 {
 	char c;
 
-	char d;
+	for (c = 'a'; c <= 'z'; c++) {
+		putchar(c);
+	}
 
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'Z') {
-			putchar(d);
-			d++;
-		}
+	for (c = 'A'; c <= 'Z'; c++) {
+		putchar(c);
+	}
+
 	putchar('\n');
-	return (0);
+
+	return 0;
 }
