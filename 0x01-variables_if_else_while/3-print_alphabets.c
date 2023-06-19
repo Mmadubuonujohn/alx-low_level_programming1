@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-char(lette)r;
+char letter
 
 for(letter = 'a'; letter <= 'z'; letter++)
 {
