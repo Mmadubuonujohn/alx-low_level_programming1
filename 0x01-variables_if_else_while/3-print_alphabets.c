@@ -1,24 +1,24 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always return success (0)
- */
+* main - Entry point
+* Return: Always return success (0)
+*/
 int main(void)
 {
-        char letter;
+char(lette)r;
 
-        for (letter = 'a'; letter <= 'z'; letter++)
-        {
-                        putchar(letter);
-        }
+for(letter = 'a'; letter <= 'z'; letter++)
+{
+putchar(letter);
+}
 
 
-        for (letter = 'A'; letter <= 'Z'; letter++)
-        {
-                putchar(letter);
-        }
+for(letter = 'A'; letter <= 'Z'; letter++)
+{
+putchar(letter);
+}
 
-        putchar('\n');
-        return (0);
+putchar('\n');
+return (0);
 }
 
